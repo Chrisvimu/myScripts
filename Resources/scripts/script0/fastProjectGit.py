@@ -3,9 +3,8 @@ import os
 import subprocess
 import time
 
+
 # Config for remote repo
-
-
 def gitRemote(title):
     try:
         repo = "git remote add origin git@github.com:Chrisvimu/"+title+".git"
@@ -16,9 +15,8 @@ def gitRemote(title):
     except Exception:
         print("Error, cant greate repo")
 
+
 # Frist steps for github repo creation
-
-
 def gitInit(title):
     try:
         subprocess.run(["ls"])
