@@ -28,7 +28,7 @@ def createTree(path):
         createLocalProject(path)
         createLocalProject(path + "/Resources")
         createLocalProject(path + "/Docs")
-        readMe = createLocalFile(path + "/readMe.txt")
+        readMe = createLocalFile(path + "/readMe.md")
         writeReadme(readMe)
         createLocalFile(path + "/Resources/index.html")
         return True
